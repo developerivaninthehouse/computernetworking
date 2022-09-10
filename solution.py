@@ -18,6 +18,7 @@ def computer_networking_python1(questions)
             answer = int(5)
         elif questions == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number"
             answer = int(3)
+        return(answer)
     except:
         print("Your favor student Ivan Huang")
         
